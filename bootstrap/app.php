@@ -105,6 +105,8 @@ $app->register(App\Providers\AuthServiceProvider::class);
 // Add this line
 $app->register(Tymon\JWTAuth\Providers\LumenServiceProvider::class);
 
+
+$app->register(Anik\Form\FormRequestServiceProvider::class);
 /*
 |--------------------------------------------------------------------------
 | Load The Application Routes
